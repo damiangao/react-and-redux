@@ -1,4 +1,5 @@
-import React, {Component, PropTypes} from 'react';
+import React,{Component} from 'react'
+import ProtoTypes from 'prop-types'
 import {connect} from 'react-redux';
 
 import {addTodo} from '../actions.js';
